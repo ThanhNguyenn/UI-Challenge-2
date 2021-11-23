@@ -1,0 +1,45 @@
+.checkbox--container {
+  list-style: none;
+  padding: 0;
+}
+
+.checkbox--container li {
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.checkbox--align-items {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox--hide-old-checkbox {
+  display: none;
+}
+
+.checkbox--new-radio {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 0.13rem solid #2f3e6a;
+  margin-right: 8px;
+}
+
+.checkbox--new-radio:after {
+  content: "";
+  margin-left: 2.3px;
+  margin-top: 2.6px;
+  width: 75%;
+  height: 75%;
+  display: block;
+  background-color: #2f3e6a;
+  border-radius: 50%;
+  transform: scale(0);
+}
+
+.checkbox--hide-old-checkbox:checked + .checkbox--new-radio:after {
+  transform: scale(1);
+}

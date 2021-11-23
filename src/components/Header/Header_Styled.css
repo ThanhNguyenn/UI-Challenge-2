@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+
+.header--title {
+  color: #2f3e6a;
+  font-family: "Merriweather", serif;
+  font-size: 26px;
+  box-sizing: border-box;
+  display: inline-block;
+}

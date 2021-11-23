@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.button--container {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.button--general {
+  width: 90px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  border: none;
+}
+
+.button--cancel {
+  background-color: #ebeffa;
+  color: #1b2b5c;
+}
+
+.button--submit {
+  background-color: #1b2b5c;
+  color: #ffffff;
+  margin-left: 20px;
+}

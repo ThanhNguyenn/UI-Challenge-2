@@ -1,0 +1,19 @@
+.page--container {
+  width: 600px;
+  height: 550px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #e1e7f6;
+}
+
+.page--inner-container {
+  width: 85%;
+  height: 80%;
+  margin-left: 50px;
+  display: inline-block;
+  margin-top: 50px;
+  font-family: inherit;
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.textbox-container {
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+
+.textbox--color {
+  color: #2f3e6a;
+}
+
+.textbox--input {
+  font-family: inherit;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 85%;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #fbfcff;
+  border: 0.5px solid #e3e8f5;
+}
+
+.textbox--note {
+  font-size: 14px;
+  margin-right: 70px;
+}
